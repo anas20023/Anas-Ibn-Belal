@@ -1,0 +1,423 @@
+<!DOCTYPE html> 
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Anas Ibn Belal</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body class="dark:bg-gray-900">
+    <!-- Navbar Container -->
+    <section class="each_section">
+      <nav class="flex flex-row justify-between items-center w-full">
+        <h1 class="logo_top text-blue-500">Anas</h1>
+        <div
+          id="navmin"
+          class="hidden md:flex flex-row justify-evenly items-center w-2/3">
+          <a href="#" class="nav_btn">Home</a>
+          <a href="#ab_me" class="nav_btn">About Me</a>
+          <a href="#srv" class="nav_btn">Services</a>
+          <a href="#prjct" class="nav_btn">Projects</a>
+          <a href="#" class="nav_btn">Certifications</a>
+          <a href="#" class="nav_btn">Contact</a>
+          <a
+            href="https://drive.google.com/file/d/1PY1Vq0QODgbi4ydjX2YI_iwOyEkQfZkU/view?usp=drive_link"
+            class="cv_btn px-4 py-2 bg-blue-600 text-white rounded-md"
+            >Download CV</a
+          >
+          <div class="flex flex-row justify-center items-center">
+            <i
+              id="light"
+              class="fa-solid fa-moon text-xl cursor-pointer text-gray-800"></i>
+            <i
+              id="dark"
+              class="fa-solid fa-sun text-xl cursor-pointer text-white hidden"></i>
+          </div>
+        </div>
+        <i
+          id="nav_on"
+          class="block md:hidden text-xl cursor-pointer fa-solid fa-bars text-gray-900 dark:text-white"></i>
+        <div id="hid_nav" class="nav_hddeb md:hidden">
+          <i
+            id="nav_off"
+            class="absolute top-6 left-3/4 text-xl cursor-pointer fa-solid fa-xmark"></i>
+          <a href="#" class="nav_btn dark_nav_hidden_btn">Home</a>
+          <a href="#" class="nav_btn dark_nav_hidden_btn">About Me</a>
+          <a href="#" class="nav_btn dark_nav_hidden_btn">Projects</a>
+          <a href="#" class="nav_btn dark_nav_hidden_btn">Certifications</a>
+          <a href="#" class="nav_btn dark_nav_hidden_btn">Contact</a>
+          <a
+            href="https://drive.google.com/file/d/1PY1Vq0QODgbi4ydjX2YI_iwOyEkQfZkU/view?usp=drive_link"
+            class="cv_btn"
+            >Download CV</a
+          >
+          <div class="flex flex-row justify-center items-center">
+            <i
+              id="lightt"
+              class="fa-solid fa-moon text-xl cursor-pointer text-gray-800"></i>
+            <i
+              id="darkt"
+              class="fa-solid fa-sun text-xl cursor-pointer dark:text-gray-800 hidden"></i>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar Container -->
+    <!-- Hero Section -->
+    <section
+      id="hero_sec"
+      class="each_section h-screen mt-20 md:mt-0 flex flex-col-reverse md:flex-row items-center gap-8">
+      <div
+        class="h-full w-full md:w-1/2 flex flex-col justify-center items-start gap-2">
+        <p class="text-lg text-gray-900 dark:text-white">Hi,</p>
+        <h1 class="text-2xl font-semibold text-blue-500 dark:text-white">
+          I'm Anas Ibn Belal
+        </h1>
+        <p class="text-6xl font-bold mb-2 text-gray-900 dark:text-blue-500">
+          Web Developer
+        </p>
+        <p class="text-gray-900 dark:text-white mb-2">
+          I'm a web developer and designer. I create professional websites and
+          web applications. I'm also a freelancer. If you need any help or have
+          an idea for your project, feel free to contact me!
+        </p>
+        <button class="cv_btn px-10">Hire Me</button>
+      </div>
+      <div
+        class="h-full w-full mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
+        <img
+          class="w-[350px] h-[350px] md:w-[500px] md:h-[500px] object-cover rounded-full border-[10px] border-b-sky-600 border-t-sky-600 shadow-lg"
+          src="https://tgihost.pages.dev/image?id=BQACAgUAAx0EfBziBwACAQJlzOKUxnA7nUCoVXssi3VIs4EJJgACOg0AAtpsaVbD0BYwEP5fzzQE"
+          alt="" />
+      </div>
+    </section>
+    <!-- Hero Section -->
+    <!-- About Me Section -->
+    <section
+      id="ab_me"
+      class="each_section h-auto sm:h-[675px] mt-20 md:mt-0 flex-col md:flex-row justify-between items-center">
+      <div
+        class="h-full w-full mt-6 md:mt-0 md:w-1/2 flex justify-between items-center mb-4">
+        <img
+          class="w-[350px] h-[350px] md:w-[500px] md:h-[500px] object-cover rounded-full border-[10px] border-l-sky-600 border-r-sky-600 shadow-lg"
+          src="https://tgihost.pages.dev/image?id=BQACAgUAAx0EfBziBwACAQNlzPZTAq8eAfYF55sMJm8ua2tbVAACWg0AAtpsaVauP9D5UO2L_DQE"
+          alt="" />
+      </div>
+      <div
+        class="w-full md:w-1/2 h-full flex flex-col justify-center items-start pt-5">
+        <h1 class="text-4xl mb-4 font-semibold text-gray-900 dark:text-white">
+          About Me
+        </h1>
+        <p class="text-gray-900 mb-4 dark:text-white">
+          I'm a web developer and designer. I create professional websites and
+          web applications. I'm also a freelancer. If you need any help or have
+          an idea for your project, feel free to contact me!
+        </p>
+        <!-- Progress - HTML -->
+        <div class="w-full my-2">
+          <h1
+            class="text-left text-lg font-semibold -mb-6 text-gray-900 dark:text-white">
+            HTML
+          </h1>
+          <div
+            class="inline-block mb-2 md:mb-0 ms-[calc(98%-1.25rem)] py-0.5 px-1.5 bg-blue-50 border border-blue-200 text-xs font-medium text-red-600 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">
+            98%
+          </div>
+
+          <div
+            class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700"
+            role="progressbar"
+            aria-valuenow="98"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div
+              class="flex flex-col justify-center rounded-full overflow-hidden bg-red-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500"
+              style="width: 98%"></div>
+          </div>
+        </div>
+        <!-- End Progress - HTML -->
+        <!-- Progress - CSS -->
+        <div class="w-full my-2">
+          <h1
+            class="text-left text-lg font-semibold -mb-6 text-gray-900 dark:text-white">
+            CSS
+          </h1>
+          <div
+            class="inline-block mb-2 md:mb-0 ms-[calc(95%-1.25rem)] py-0.5 px-1.5 bg-blue-50 border border-blue-200 text-xs font-medium text-blue-600 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">
+            95%
+          </div>
+
+          <div
+            class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700"
+            role="progressbar"
+            aria-valuenow="95"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div
+              class="flex flex-col justify-center rounded-full overflow-hidden bg-blue-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500"
+              style="width: 95%"></div>
+          </div>
+        </div>
+        <!-- End Progress - CSS -->
+        <!-- Progress - Javascript -->
+        <div class="w-full my-2">
+          <h1
+            class="text-left text-lg font-semibold -mb-6 text-gray-900 dark:text-white">
+            Javascript
+          </h1>
+          <div
+            class="inline-block mb-2 md:mb-0 ms-[calc(90%-1.25rem)] py-0.5 px-1.5 bg-blue-50 border border-blue-200 text-xs font-medium text-yellow-600 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500">
+            90%
+          </div>
+
+          <div
+            class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700"
+            role="progressbar"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div
+              class="flex flex-col justify-center rounded-full overflow-hidden bg-yellow-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-blue-500"
+              style="width: 90%"></div>
+          </div>
+        </div>
+        <!-- End Progress - Javascript -->
+        <!-- Progress - Tailwind CSS -->
+        <div class="w-full my-2">
+          <h1
+            class="text-left text-lg font-semibold -mb-6 text-gray-900 dark:text-white">
+            Tailwind CSS
+          </h1>
+          <div
+            class="inline-block mb-2 md:mb-0 ms-[calc(90%-1.25rem)] py-0.5 px-1.5 bg-blue-50 border border-blue-200 text-xs font-medium text-emerald-600 rounded-lg dark:bg-emerald-800/30 dark:border-emerald-800 dark:text-emerald-500">
+            90%
+          </div>
+
+          <div
+            class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700"
+            role="progressbar"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div
+              class="flex flex-col justify-center rounded-full overflow-hidden bg-emerald-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-emerald-500"
+              style="width: 90%"></div>
+          </div>
+        </div>
+        <!-- End Progress - Tailwind CSS -->
+        <!-- Progress - Node JS -->
+        <div class="w-full my-2">
+          <h1
+            class="text-left text-lg font-semibold -mb-6 text-gray-900 dark:text-white">
+            Node JS
+          </h1>
+          <div
+            class="inline-block mb-2 md:mb-0 ms-[calc(90%-1.25rem)] py-0.5 px-1.5 bg-green-50 border border-blue-200 text-xs font-medium text-green-600 rounded-lg dark:bg-green-800/30 dark:border-green-800 dark:text-green-500">
+            90%
+          </div>
+
+          <div
+            class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700"
+            role="progressbar"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div
+              class="flex flex-col justify-center rounded-full overflow-hidden bg-green-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-green-500"
+              style="width: 90%"></div>
+          </div>
+        </div>
+        <!-- End Progress - Node JS -->
+        <!-- Progress - React JS -->
+        <div class="w-full my-2">
+          <h1
+            class="text-left text-lg font-semibold -mb-6 text-gray-900 dark:text-white">
+            React JS
+          </h1>
+          <div
+            class="inline-block mb-2 md:mb-0 ms-[calc(90%-1.25rem)] py-0.5 px-1.5 bg-cyan-50 border border-cyan-200 text-xs font-medium text-cyan-600 rounded-lg dark:bg-cyan-800/30 dark:border-cyan-800 dark:text-cyan-500">
+            90%
+          </div>
+
+          <div
+            class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700"
+            role="progressbar"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div
+              class="flex flex-col justify-center rounded-full overflow-hidden bg-cyan-600 text-xs text-white text-center whitespace-nowrap transition duration-500 dark:bg-cyan-500"
+              style="width: 90%"></div>
+          </div>
+        </div>
+        <!-- End Progress - React JS -->
+      </div>
+    </section>
+    <!-- About Me Section -->
+    <!-- Service Section -->
+    <section
+      id="srv"
+      class="each_section h-auto sm:h-[584px] flex flex-col md:flex justify-start items-center my-10">
+      <div
+        class="text-center flex flex-col justify-center items-center h-1/4 w-full">
+        <h1
+          class="text-gray-900 font-bold text-4xl md:text-3xl lg:text-4xl mb-4 dark:text-white">
+          Services
+        </h1>
+        <p
+          class="text-gray-700 text-sm md:text-base font-medium text-center dark:text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+          beatae harum animi repudiandae repellendus magni.
+        </p>
+      </div>
+      <div
+        class="flex flex-col justify-between items-center md:flex-row lg:h-3/4 w-full py-5 gap-4">
+        <div class="div_card_services">
+          <i class="fa-brands fa-figma text-6xl text-red-500 mb-8"></i>
+          <div class="flex flex-col mt-6 justify-evenly items-center">
+            <h1 class="text-xl font-semibold text-center text-gray-800">
+              UI/UX DESIGN
+            </h1>
+            <p class="text-sm mt-2 font-medium text-center text-gray-700">
+              UI and UX Design with Figma, Adobe XD and Sketch, etc.
+            </p>
+          </div>
+          <div class="flex flex-row justify-center items-center mt-8">
+            <button class="cv_btn px-10">View Projects</button>
+          </div>
+        </div>
+        <div class="div_card_services">
+          <i class="fa-brands fa-uikit text-6xl text-gray-700 mb-8"></i>
+          <div class="flex flex-col mt-6 justify-evenly items-center">
+            <h1 class="text-xl font-semibold text-center text-gray-800">
+              WEB DESIGN
+            </h1>
+            <p class="text-sm mt-2 font-medium text-center text-gray-700">
+              Web design with HTML, CSS, Tailwind CSS and Bootstrap
+            </p>
+          </div>
+          <div class="flex flex-row justify-center items-center mt-8">
+            <button class="cv_btn px-10">View Projects</button>
+          </div>
+        </div>
+        <div class="div_card_services">
+          <i class="fa-solid fa-code text-6xl text-blue-500 mb-8"></i>
+          <div class="flex flex-col mt-6 justify-evenly items-center">
+            <h1 class="text-xl font-semibold text-center text-gray-800">
+              WEB DEVELOPEMENT
+            </h1>
+            <p class="text-sm mt-2 font-medium text-center text-gray-700">
+              Web Development with MERN Stack, React.js and Vue.js
+            </p>
+          </div>
+          <div class="flex flex-row justify-center items-center mt-8">
+            <button class="cv_btn px-10">View Projects</button>
+          </div>
+        </div>
+        <div class="div_card_services">
+          <i class="fa-solid fa-bezier-curve text-6xl text-rose-600 mb-8"></i>
+          <div class="flex flex-col mt-6 justify-evenly items-center">
+            <h1 class="text-xl font-semibold text-center text-gray-800">
+              GRAPHICS DESIGN
+            </h1>
+            <p class="text-sm mt-2 font-medium text-center text-gray-700">
+              High Quality Graphics Design for Business Cards, Brochures, Flyers
+              etc.
+            </p>
+          </div>
+          <!-- btton here -->
+          <div class="flex flex-row justify-center items-center mt-8">
+            <button class="cv_btn px-10">View Projects</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section -->
+    <!-- Project Section -->
+    <section
+      id="prjct"
+      class="each_section h-auto sm:h-[584px] flex flex-col md:flex justify-start items-center my-10">
+      <div
+        class="text-center flex flex-col justify-center items-center h-1/4 w-full">
+        <h1
+          class="text-gray-900 font-bold text-4xl md:text-3xl lg:text-4xl mb-4 dark:text-white">
+          My Projects
+        </h1>
+        <p
+          class="text-gray-700 text-sm md:text-base font-medium text-center dark:text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+          beatae harum animi repudiandae repellendus magni.
+        </p>
+      </div>
+      <div
+        class="flex flex-col justify-between items-center md:flex-row lg:h-3/4 w-full py-5 gap-4">
+        <div
+          class="div_card_projects bg-cover bg-[url('https://tgihost.pages.dev/image?id=BQACAgUAAx0EfBziBwACARNl25_hlWTl41HDkcE2BN6T9LlAwgACog0AAhkn4FZPiAmJqGAi4jQE')]">
+          <div
+            id="project0"
+            class="hidden h-full w-full bg-gray-100 dark:bg-gray-100 rounded-md justify-center items-center gap-4 flex-col hover:transition-all delay-500">
+            <div class="flex flex-col justify-center items-center">
+              <h1 class="text-lg font-bold text-blue-500">Web Design</h1>
+              <h1 class="text-lg font-medium text-gray-800">
+                AirCalling Landing Page Design
+              </h1>
+            </div>
+            <div class="flex flex-row justify-center items-center gap-2">
+              <i
+                class="fa-solid fa-link text-center text-lg h-12 w-12 bg-blue-600 text-white p-2 rounded-full cursor-pointer"></i>
+              <i
+                class="fa-solid fa-code text-center text-lg h-12 w-12 bg-blue-600 text-white p-2 rounded-full cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="div_card_projects bg-cover bg-[url('https://tgihost.pages.dev/image?id=BQACAgUAAx0EfBziBwACARVl26JsucDwlXU03eyvuBxsHYfYJAACpA0AAhkn4Fa9CsgFFc9EXTQE')]">
+          <div
+            id="project1"
+            class="hidden h-full w-full bg-gray-100 dark:bg-gray-100 rounded-md justify-center items-center gap-4 flex-col">
+            <div class="flex flex-col justify-center items-center">
+              <h1 class="text-lg font-bold text-blue-500">Web Design</h1>
+              <h1 class="text-lg font-medium text-gray-800">
+                AirCalling Landing Page Design
+              </h1>
+            </div>
+            <div class="flex flex-row justify-center items-center gap-2">
+              <i
+                class="fa-solid fa-link text-center text-lg h-12 w-12 bg-blue-600 text-white p-2 rounded-full cursor-pointer"></i>
+              <i
+                class="fa-solid fa-code text-center text-lg h-12 w-12 bg-blue-600 text-white p-2 rounded-full cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="div_card_projects bg-cover bg-[url('https://tgihost.pages.dev/image?id=BQACAgUAAx0EfBziBwACARZl26NgW_St1xtg_QdsvVmgy4SGXAACpQ0AAhkn4Fb12zJnJTTpfDQE')]">
+          <div
+            id="project2"
+            class="hidden h-full w-full bg-gray-100 dark:bg-gray-100 rounded-md justify-center items-center gap-4 flex-col">
+            <div class="flex flex-col justify-center items-center">
+              <h1 class="text-lg font-bold text-blue-500">Web Design</h1>
+              <h1 class="text-lg font-medium text-gray-800">
+                AirCalling Landing Page Design
+              </h1>
+            </div>
+            <div class="flex flex-row justify-center items-center gap-2">
+              <i
+                class="fa-solid fa-link text-center text-lg h-12 w-12 bg-blue-600 text-white p-2 rounded-full cursor-pointer"></i>
+              <i
+                class="fa-solid fa-code text-center text-lg h-12 w-12 bg-blue-600 text-white p-2 rounded-full cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section -->
+    <script src="../src/main.js"></script>
+  </body>
+</html>
